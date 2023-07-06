@@ -525,11 +525,20 @@ img {
 }
 .footer-form-container {}
 
-.form-text {}
+.form-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-white-bgd);
+    margin-bottom: 16px;
+}
 
 .subscribe-form {
     display: flex;
-    gap:24;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 .subscribe-form-label {}
@@ -548,9 +557,26 @@ img {
     color: var(--main-white-bgd);
 }
 
-.hero-btn {}
+.form-btn {
+    display: flex;
+    justify-content: center;
+    min-width: 165px;
+    height: 40px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-white-bgd);
+    cursor: pointer;
+    background-color: var(--bright-blue-cl);
 
-.btn-icon {}
+
+}
+
+.btn-icon {
+    margin-left: 16px;
+}
 
 /* App search */
 
