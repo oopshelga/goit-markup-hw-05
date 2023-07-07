@@ -863,7 +863,6 @@ img {
 }
 .modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox {
     background-color: var(--dark-blue-bgd);
-    color: var(-);
     border: none;
     fill: var(--simple-white-cl);
     
